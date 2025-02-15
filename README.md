@@ -61,6 +61,16 @@ A complete model looks something like this:
 
 ![Image](https://github.com/user-attachments/assets/1a555326-9883-4c21-87b3-d5b4f75c2e7b)
 
+Now coming to the frequency response of the CS Amplifier,
+
+![Image](https://github.com/user-attachments/assets/88a55736-efac-4362-9d47-7f62ad536e44)
+
+Its observed that capacitive impedances come into play for lower frequencies and Mosfet capacitances also play a role at higher frequencies. Thus the difference between the Upper Cutoff frequency and Lower Cutoff frequency that is the midband frequency is the frequency range where no capacitive effect comes into play for the CS Amplifier and all the Capacitors acts as AC Short.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q. CS Amplifier design using 180nm technology having a power budget of 50 microwatt and supply voltage of 1.8v. Input signal 50mV, frequency of 1kHz and tsmc018.lib file for LTSpice.
+
+
 
 
 
