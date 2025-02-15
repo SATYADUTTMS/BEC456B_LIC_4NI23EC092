@@ -70,7 +70,9 @@ Its observed that capacitive impedances come into play for lower frequencies and
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Q. CS Amplifier design using 180nm technology having a power budget of 50 microwatt and supply voltage of 1.8v. Input signal 50mV, frequency of 1kHz and tsmc018.lib file for LTSpice.
 
+CIRCUIT :
 
+![Image](https://github.com/user-attachments/assets/1a9b1685-6b8d-47e7-9923-3d3aafa6cf08)
 
 
 
