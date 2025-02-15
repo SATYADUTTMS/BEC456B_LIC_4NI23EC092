@@ -39,6 +39,15 @@ Capacitors are the components which act as AC Short and DC open. In other words 
 
 ![Image](https://github.com/user-attachments/assets/484075a9-8943-4d6b-8196-0f02e17bedb7)
 
+The below is the Voltage Transfer Curve ( Vds VS Vgs ) for a MOSFET.
+
+![Image](https://github.com/user-attachments/assets/c12fe0eb-9a8f-4560-8c02-c3bfd965241b)
+
+Its observed that when Vgs < Vth, the MOSFET is OFF , as a result Vds = Vdd. However When Vgs > Vth the MOSFET is ON , and if Vds >= Vov it works in Saturation Region (as required). Also if Vds < Vov the MOSFET works in Ohmic Region.
+
+Now, why do we need Saturation Region ? If observed in the figure we get to know that the curve becomes almost linear in the saturation region. In an input is applied to this region the amplification is at maximum ( higher gain ). So this almost-linear region plays an important role during setting the Q-point.
+
+An 180 deg phase shift is observed at the output. We observe that 
 
 
 
