@@ -74,6 +74,16 @@ CIRCUIT :
 
 ![Image](https://github.com/user-attachments/assets/1a9b1685-6b8d-47e7-9923-3d3aafa6cf08)
 
+CALCULATION :
+
+Power = Voltage * Current
+
+Current = Power / Voltage = 50u / 1.8 = 27.77 uA.
+
+Since its an Amplifier to make sure that its present in Saturation Region.
+
+
+
 
 
 
