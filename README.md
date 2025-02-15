@@ -15,4 +15,6 @@ Out of which Common Source Amplifier has an advantage as offers a high voltage g
 
 The below is the general representation of a CS Amplifier.
 
+![Image](https://github.com/user-attachments/assets/b4af6e83-4f0e-43cd-bf48-05dd4049256e)
+
 
