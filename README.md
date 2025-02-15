@@ -37,6 +37,10 @@ The input DC Voltage can also be set using the Voltage divider bias rule at the 
 
 Capacitors are the components which act as AC Short and DC open. In other words , it allows AC Component and blocks the DC Component. However the impedance of capacitor also comes into play which will be taken during the various frequency resposnse of the system.
 
+![Image](https://github.com/user-attachments/assets/484075a9-8943-4d6b-8196-0f02e17bedb7)
+
+
+
 
 
 
