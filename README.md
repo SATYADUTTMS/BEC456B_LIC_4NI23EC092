@@ -43,11 +43,24 @@ The below is the Voltage Transfer Curve ( Vds VS Vgs ) for a MOSFET.
 
 ![Image](https://github.com/user-attachments/assets/c12fe0eb-9a8f-4560-8c02-c3bfd965241b)
 
-Its observed that when Vgs < Vth, the MOSFET is OFF , as a result Vds = Vdd. However When Vgs > Vth the MOSFET is ON , and if Vds >= Vov it works in Saturation Region (as required). Also if Vds < Vov the MOSFET works in Ohmic Region.
+Its observed that when Vgs < Vth, the MOSFET is OFF , as a result Vds = Vdd. However When Vgs > Vth the MOSFET is ON , and if Vds >= Vov it works in Saturation Region (as required). Also if Vds < Vov the MOSFET works in Triode Region.
 
 Now, why do we need Saturation Region ? If observed in the figure we get to know that the curve becomes almost linear in the saturation region. In an input is applied to this region the amplification is at maximum ( higher gain ). So this almost-linear region plays an important role during setting the Q-point.
 
-An 180 deg phase shift is observed at the output. We observe that 
+An 180 deg phase shift is observed at the output. We observe that :
+
+![Image](https://github.com/user-attachments/assets/fc3c815f-4119-42ac-bc6d-d4a869e4f8e5)
+
+And as a result in the input voltage increases the drain current (Id) increases, as a result the Id*Rd term increases. So the Vds value decreases with increase in Vgs . Thus its inverting.
+
+It should also be noted that the input ac signal that we are providing has to be vgs << 2vov for proper operation of amplifier. Other wise if the positive peak is increased, then the negative side will go into the triode region and causes distortion. Also, if the negative side is increased, then the positive side will go into the cutoff region leading to clipping off of signal.
+
+By carefully going and calculating all the parameters and applying an AC signal, its possible to get a very high gain. However we are not interested in such a high value of gain. In order to reduce and stabilize the gain at a good level, we apply a source resistor that acts as source degeneration leading to steady and stable gain.Also, by applying a bypass Capacitor the Gain increases as it helps the unwanted AC signal to bypass the source resistance.
+
+A complete model looks something like this:
+
+
+
 
 
 
