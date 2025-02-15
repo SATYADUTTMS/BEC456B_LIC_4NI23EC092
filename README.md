@@ -31,6 +31,14 @@ Thus from the Output curves we know that the amplifier works in Saturation Regio
 
 A Q-point (quiescent point) is set in a MOSFET to ensure it operates within its optimal region, providing the desired level of amplification and minimizing distortion and providing a stable DC operating point and also allowing for the largest possible signal swing without clipping or entering non-linear regions.
 
+![Image](https://github.com/user-attachments/assets/0bafae23-8bdc-4ad5-834f-42f12564553e)
+
+The input DC Voltage can also be set using the Voltage divider bias rule at the gate terminal.
+
+Capacitors are the components which act as AC Short and DC open. In other words , it allows AC Component and blocks the DC Component. However the impedance of capacitor also comes into play which will be taken during the various frequency resposnse of the system.
+
+
+
 
 
 
