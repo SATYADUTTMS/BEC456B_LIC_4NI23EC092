@@ -27,5 +27,7 @@ Since the MOSFET is a voltage controlled Current device , the output is the drai
 
 Thus from the Output curves we know that the amplifier works in Saturation Region of MOSFET.
 
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ques10.com%2Fp%2F17645%2Fexplain-construction-and-characteristics-of-n-chan%2F&psig=AOvVaw3Nl45XYeaHamZuf3k9G1ZY&ust=1739691608935000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNio77mWxYsDFQAAAAAdAAAAABAb
+
 
 
