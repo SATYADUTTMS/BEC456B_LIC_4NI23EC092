@@ -14,3 +14,5 @@ There are different configurations of MOSFETs being used namely
 Out of which Common Source Amplifier has an advantage as offers a high voltage gain, good input impedance, and a relatively low output impedance compared to Common Gate and Common  Drain .
 
 The below is the general representation of a CS Amplifier.
+
+
