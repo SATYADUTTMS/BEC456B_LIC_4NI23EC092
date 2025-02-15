@@ -59,6 +59,8 @@ By carefully going and calculating all the parameters and applying an AC signal,
 
 A complete model looks something like this:
 
+![Image](https://github.com/user-attachments/assets/1a555326-9883-4c21-87b3-d5b4f75c2e7b)
+
 
 
 
