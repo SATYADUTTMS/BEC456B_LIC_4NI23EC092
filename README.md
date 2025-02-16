@@ -82,12 +82,14 @@ Current = Power / Voltage = 50u / 1.8 = 27.77 uA.
 
 Since its an Amplifier to make sure that its present in Saturation Region.
 
-
-
 Here we observe Vgs = 0.9V and Vt = 0.366V (given) , Also Vgs - Vt = Vov = 0.9-0.366== 0.534V
 Thus by fundamental concept , Vds >= Vov , here 1.77V > 0.534V . Its in SATURATION .
 
 With having L = 800nm and W = 785n, the drain current of (approx.) = Id == 27.76 uA is calacultaed and verified.
+
+1.DC Operating Point
+
+
 
 
 
