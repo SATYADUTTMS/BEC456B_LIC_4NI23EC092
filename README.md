@@ -110,7 +110,7 @@ With having L = 800nm and W = 785n, the drain current of (approx.) = Id == 27.76
 
    b. For Vout:
 
-
+![Image](https://github.com/user-attachments/assets/b8a63195-c0a7-4bf4-8e7b-70c7f8f7e921) 
 
    c. Both:
 
