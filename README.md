@@ -68,7 +68,7 @@ Now coming to the frequency response of the CS Amplifier,
 Its observed that capacitive impedances come into play for lower frequencies and Mosfet capacitances also play a role at higher frequencies. Thus the difference between the Upper Cutoff frequency and Lower Cutoff frequency that is the midband frequency is the frequency range where no capacitive effect comes into play for the CS Amplifier and all the Capacitors acts as AC Short.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q. CS Amplifier design using 180nm technology having a power budget of 50 microwatt and supply voltage of 1.8v. Input signal 50mV, frequency of 1kHz and tsmc018.lib file for LTSpice.
+Q. CS Amplifier design  having a power budget of 50 microwatt and supply voltage of 1.8v. Input signal 50mV, frequency of 1kHz and tsmc018.lib file for LTSpice.
 
 CIRCUIT :
 
@@ -84,10 +84,10 @@ Since its an Amplifier to make sure that its present in Saturation Region.
 
 ![Image](https://github.com/user-attachments/assets/85caa3a1-67ab-4606-9fee-91dd6492f6af)
 
-Here we observe Vgs = 0.6V and Vt = 0.366V (given) , Also Vgs - Vt = Vov = 0.6-0.366== 0.234V
-Thus by fundamental concept , Vds >= Vov , here 1.77V > 0.234V . Its in SATURATION .
+Here we observe Vgs = 0.9V and Vt = 0.366V (given) , Also Vgs - Vt = Vov = 0.9-0.366== 0.534V
+Thus by fundamental concept , Vds >= Vov , here 1.77V > 0.534V . Its in SATURATION .
 
-With having L = 180nm and W = 1.12u, the drain current of (approx.) = Id == 27.76 uA is calacultaed and verified.
+With having L = 800nm and W = 785n, the drain current of (approx.) = Id == 27.76 uA is calacultaed and verified.
 
 
 
