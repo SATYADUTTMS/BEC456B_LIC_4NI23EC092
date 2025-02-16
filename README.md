@@ -133,9 +133,10 @@ Some extra Observations :
 
 6. Plot of Id Vs L:
 
-
+![Image](https://github.com/user-attachments/assets/8494c6c3-fd3b-440e-b7ac-68bcd1bf1488)
 
 7. Plot of Id Vs W:
+
 
 
 8. Plot of Id Vs Rd:
