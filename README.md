@@ -86,7 +86,7 @@ Since its an Amplifier to make sure that its present in Saturation Region.
 Here we observe Vgs = 0.9V and Vt = 0.366V (given) , Also Vgs - Vt = Vov = 0.9-0.366== 0.534V
 Thus by fundamental concept , Vds >= Vov , here 1.12V > 0.534V . Its in SATURATION .
 
-With having L = 800nm and W = 785n, the drain current of (approx.) = Id == 27.76 uA is calculated and verified.
+With having L = 800nm and W = 785n, the drain current of (approx.) = Id == 27.71 uA is calculated and verified.
 
 1. DC Operating Point :
 
