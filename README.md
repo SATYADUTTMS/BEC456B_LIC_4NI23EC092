@@ -141,6 +141,8 @@ Some extra Observations :
 
 8. Plot of Id Vs Rd:
 
+![Image](https://github.com/user-attachments/assets/0bc708e2-6e24-4c4d-bd88-d36361b45c91) 
+
 
 
 
