@@ -119,9 +119,10 @@ With having L = 800nm and W = 785n, the drain current of (approx.) = Id == 27.76
 
 5. Frequency Analysis:
 
-
+![Image](https://github.com/user-attachments/assets/269be566-0868-46c4-9846-8419fdfec0da) 
 
 It was observed that Gm came out to be as follows :
+
 
 
 and Thus by using Gain = Gm * Rd we found the Gain to be 1.05*10^-4 * 25k == -2.625.
