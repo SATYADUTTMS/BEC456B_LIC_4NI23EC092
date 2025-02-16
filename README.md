@@ -156,7 +156,7 @@ Some extra Observations :
 
 Its Observed from Below Equation that Current increases with increase in Width and dcreases with increase in Length.
 
-
+![Image](https://github.com/user-attachments/assets/76116661-fee5-4d26-b1bc-269450b1831e)
 
 8. Plot of Id Vs Rd:
 
