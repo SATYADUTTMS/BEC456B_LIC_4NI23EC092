@@ -166,6 +166,8 @@ Its Observed from Below Equation that Current increases with increase in Width a
 Hence a CS Amplifier of Vgs = 0.9V, W = 785nm , L = 800nm , Vdd = 1.8V and Rd = 25k is designed and verified for power budget of P = 50uW.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q2. Replacing the resistor Rd and with a PMOS.
+
 
 
 
