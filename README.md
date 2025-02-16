@@ -115,6 +115,8 @@ With having L = 800nm and W = 785n, the drain current of (approx.) = Id == 27.76
    c. Both:
 
 
+
+
 5. Frequency Analysis:
 
    
