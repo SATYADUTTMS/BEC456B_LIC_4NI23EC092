@@ -97,14 +97,16 @@ With having L = 800nm and W = 785n, the drain current of (approx.) = Id == 27.76
 ![Image](https://github.com/user-attachments/assets/2c1412f4-771a-4783-b3cc-08904f4fe53b)
 
 
-3. Drain Characteristics (Id Vs Vds):
+3. Drain Characteristics (Id Vs Vds): 
 
-
+![Image](https://github.com/user-attachments/assets/e1223250-eb20-4b83-b83c-d9e2c01eea5a) 
  
 
 4. Transient Analysis:
 
    a. For Vin:
+
+
 
    b. For Vout:
 
