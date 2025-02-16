@@ -140,7 +140,7 @@ It was observed that Gm came out to be as follows :
 
 ![Image](https://github.com/user-attachments/assets/db0abada-5bcc-44bc-b00b-320fcc806720)  
 
-and Thus by using Gain = Gm * Rd we found the Gain to be 1.05*10^-4 * 25k == -2.625.{Minus because of the inversion}.
+Thus by using Gain = Gm * Rd we found the Gain to be 1.05*10^-4 * 25k == -2.625.{Minus because of the inversion}.Gain can also be Calulated as Output peak-peak by Inpit peak-peak.
 
 If we would have used Rd as 1k then my Gain will be 0.105. To increase the gain we have increased the Rd Value.
 
