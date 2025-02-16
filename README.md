@@ -106,9 +106,11 @@ With having L = 800nm and W = 785n, the drain current of (approx.) = Id == 27.76
 
    a. For Vin:
 
-
+![Image](https://github.com/user-attachments/assets/16d5584e-6e47-46b2-8354-9260c28d5e61) 
 
    b. For Vout:
+
+
 
    c. Both:
 
