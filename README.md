@@ -68,7 +68,7 @@ Now coming to the frequency response of the CS Amplifier,
 Its observed that capacitive impedances come into play for lower frequencies and Mosfet capacitances also play a role at higher frequencies. Thus the difference between the Upper Cutoff frequency and Lower Cutoff frequency that is the midband frequency is the frequency range where no capacitive effect comes into play for the CS Amplifier and all the Capacitors acts as AC Short.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q. CS Amplifier design  having a power budget of 50 microwatt and supply voltage of 1.8v. Input signal 50mV, frequency of 1kHz and tsmc018.lib file for LTSpice.
+Q1. CS Amplifier design  having a power budget of 50uW and supply voltage of 1.8v. Input signal 50mV, frequency of 1kHz and tsmc018.lib file for LTSpice.
 
 CIRCUIT :
 
@@ -92,14 +92,20 @@ With having L = 800nm and W = 785n, the drain current of (approx.) = Id == 27.76
 
 ![Image](https://github.com/user-attachments/assets/e4a05b73-8d19-4aa1-98a6-ee215f6b239a)
 
+The above data providing the DC biasing which is required as mentioned earlier to make sure the value of current matches with power budget and the device is working well in saturation for proper Amplification.
+
 2. Transfer Characteristics (Id Vs Vgs):
 
 ![Image](https://github.com/user-attachments/assets/2c1412f4-771a-4783-b3cc-08904f4fe53b)
+
+This graph provides the details of how Id varies with input voltage Vgs and its observed that current starts to flow through MOSFET only after the Vth (0.366V) and increases exponentially.
 
 
 3. Drain Characteristics (Id Vs Vds): 
 
 ![Image](https://github.com/user-attachments/assets/e1223250-eb20-4b83-b83c-d9e2c01eea5a) 
+
+This graph provides how Id varies with Vds voltage and its observed that the current becomes constant after some value of Vds ( Vds=Vov ). This is beacuase of "Pinch-OFF Effect" due to difference in potential along the channel. Alos if we carefully observed the Current Id increases slightly as my Vds value increases the Length shortens which is inversely proportional to the current Id and hence it icnreases. If we join all these curves we get a point called as "Early Voltage". This phenomenon is called " Channel-Length Modulation" and hence the Ouput resistance is no longer infinite value but has some large finite value.
  
 
 4. Transient Analysis:
@@ -108,24 +114,33 @@ With having L = 800nm and W = 785n, the drain current of (approx.) = Id == 27.76
 
 ![Image](https://github.com/user-attachments/assets/16d5584e-6e47-46b2-8354-9260c28d5e61) 
 
+This graph provides variation of input AC Voltage of 50mV and Frequency 1Khz with repsect to time.
+
    b. For Vout:
 
 ![Image](https://github.com/user-attachments/assets/b8a63195-c0a7-4bf4-8e7b-70c7f8f7e921) 
 
+This graph provides variation of output AC Voltage  with repsect to time.
+
    c. Both:
 
 ![Image](https://github.com/user-attachments/assets/579d0f56-b2e2-4d4c-a83e-541af00d2e9d) 
+
+This graph shows that there is 180 degree phase shift. Blue representing the output voltage and green the input. Notice the gain in Output voltage.
 
 
 5. Frequency Analysis:
 
 ![Image](https://github.com/user-attachments/assets/269be566-0868-46c4-9846-8419fdfec0da) 
 
+This graph provides the Frequency Response of the Circuit. At higher cutoff frequency of 1Ghz , beyond this the Gain decreases due to effect of parasitic capacitance of MOSFET and other components.
+Bandwidth is given by B.W = Upper Cutoff Frequency{Fh} - Lower Cutoff Frequency{Fl} = 1Ghz. This provides the range of frequency where no capacitance comes into play and all capacitors act as AC SHORT.
+
 It was observed that Gm came out to be as follows :
 
 ![Image](https://github.com/user-attachments/assets/db0abada-5bcc-44bc-b00b-320fcc806720)  
 
-and Thus by using Gain = Gm * Rd we found the Gain to be 1.05*10^-4 * 25k == -2.625.
+and Thus by using Gain = Gm * Rd we found the Gain to be 1.05*10^-4 * 25k == -2.625.{Minus because of the inversion}.
 
 If we would have used Rd as 1k then my Gain will be 0.105. To increase the gain we have increased the Rd Value.
 
@@ -142,6 +157,11 @@ Some extra Observations :
 8. Plot of Id Vs Rd:
 
 ![Image](https://github.com/user-attachments/assets/0bc708e2-6e24-4c4d-bd88-d36361b45c91) 
+
+
+Hence a CS Amplifier of Vgs = 0.9V, W = 785nm , L = 800nm , Vdd = 1.8V and Rd = 25k is designed and verified for power budget of P = 50uW.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
