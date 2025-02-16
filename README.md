@@ -86,10 +86,47 @@ Since its an Amplifier to make sure that its present in Saturation Region.
 Here we observe Vgs = 0.9V and Vt = 0.366V (given) , Also Vgs - Vt = Vov = 0.9-0.366== 0.534V
 Thus by fundamental concept , Vds >= Vov , here 1.77V > 0.534V . Its in SATURATION .
 
-With having L = 800nm and W = 785n, the drain current of (approx.) = Id == 27.76 uA is calcultaed and verified.
+With having L = 800nm and W = 785n, the drain current of (approx.) = Id == 27.76 uA is calculated and verified.
 
-1.DC Operating Point
+1. DC Operating Point :
 
+![Image](https://github.com/user-attachments/assets/e4a05b73-8d19-4aa1-98a6-ee215f6b239a)
+
+2. Transfer Characteristics (Id Vs Vgs):
+
+
+3. Drain Characteristics (Id Vs Vds):
+
+4. Transient Analysis:
+
+   a. For Vin:
+
+   b. For Vout:
+
+   c. Both:
+
+
+5. Frequency Analysis:
+
+   
+
+It was observed that Gm came out to be as follows :
+
+
+and Thus by using Gain = Gm * Rd we found the Gain to be 1.05*10^-4 * 25k == -2.625.
+
+If we would have used Rd as 1k then my Gain will be 0.105. To increase the gain we have increased the Rd Value.
+
+Some extra Observations :
+
+6. Plot of Id Vs L:
+
+
+
+7. Plot of Id Vs W:
+
+
+8. Plot of Id Vs Rd:
 
 
 
