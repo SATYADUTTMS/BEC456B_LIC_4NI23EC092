@@ -72,7 +72,7 @@ Q. CS Amplifier design  having a power budget of 50 microwatt and supply voltage
 
 CIRCUIT :
 
-![Image](https://github.com/user-attachments/assets/1a9b1685-6b8d-47e7-9923-3d3aafa6cf08)
+
 
 CALCULATION :
 
@@ -82,7 +82,7 @@ Current = Power / Voltage = 50u / 1.8 = 27.77 uA.
 
 Since its an Amplifier to make sure that its present in Saturation Region.
 
-![Image](https://github.com/user-attachments/assets/85caa3a1-67ab-4606-9fee-91dd6492f6af)
+
 
 Here we observe Vgs = 0.9V and Vt = 0.366V (given) , Also Vgs - Vt = Vov = 0.9-0.366== 0.534V
 Thus by fundamental concept , Vds >= Vov , here 1.77V > 0.534V . Its in SATURATION .
