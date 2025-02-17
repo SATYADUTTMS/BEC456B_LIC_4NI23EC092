@@ -242,10 +242,11 @@ Different Plots of grpahs Calculated :
 
     b. For Vout:
 
-    
+    ![Image](https://github.com/user-attachments/assets/956e188d-2c58-4537-a4b2-de4c91018c1a)
 
     c. Both:
 
+    
 
 6. Drain Current (Id) Vs DC Bias Voltage (Vb):
 
