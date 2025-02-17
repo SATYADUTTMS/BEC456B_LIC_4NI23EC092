@@ -181,7 +181,7 @@ Thus, in this model the drain voltage is always equal to gate voltage, ensuring 
 
 Considering the channel length modulation , the Gain can be calculated as :
 
-
+![Image](https://github.com/user-attachments/assets/e34f19d6-2b87-4e8f-bdb2-51b2ee176d25)
 
 Example Model and Graph :
 
@@ -191,6 +191,8 @@ Example Model and Graph :
 
 
 Thus we have an another case where we can apply a fixed DC bias Voltage (Vb) making sure that there is less variations of Vb upon change in circuit conditions like temperature etc, such that its maintained constant throughout.Taking the channel length modulation into consideration the Gain is provides as :
+
+
 
 We also observe that this configuration has a larger gain than the diode connected load because ro,p is larger than 1/gm,p.
 
