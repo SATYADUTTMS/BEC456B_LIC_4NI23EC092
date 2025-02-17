@@ -175,7 +175,25 @@ Hence a CS Amplifier of Vgs = 0.9V, W = 785nm , L = 800nm , Vdd = 1.8V and Rd = 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Q2. Replacing the resistor Rd and with a PMOS.
 
+Instead of Resistor Rd, we can use diode-connected model configuration of MOSFET.Here the gate and drain are connected together as shown below :
 
+Thus, in this model the drain voltage is always equal to gate voltage, ensuring that the MOSFET works always in Saturation region. We can confirm the condition of Vds>Vov={Vgs-Vt}, since Vd = Vg , the condition is Verified. Rout will be equal to 1/gm value.The Gain obtained from this graph will not have a higher value beacuase of absence of linearity part in saturation. 
+
+Considering the channel length modulation , the Gain can be calculated as :
+
+
+
+Example Model and Graph :
+
+
+
+
+
+Thus we have an another case where we can apply a fixed DC bias Voltage (Vb) making sure that there is less variations of Vb upon change in circuit conditions like temperature etc, such that its maintained constant throughout.Taking the channel length modulation into consideration the Gain is provides as :
+
+We also observe that this configuration has a larger gain than the diode connected load because ro,p is larger than 1/gm,p.
+
+Example Model and Graph :
 
 
 
