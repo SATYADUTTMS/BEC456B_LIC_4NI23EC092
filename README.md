@@ -232,12 +232,13 @@ Different Plots of grpahs Calculated :
 
 4. Voltage Transfer Characteristics:
 
-
+![Image](https://github.com/user-attachments/assets/90016100-0bfb-453f-9c8e-c8ef7e00561b) 
 
 5. Transient Analysis:
 
     a. For Vin:
 
+    
 
     b. For Vout:
 
