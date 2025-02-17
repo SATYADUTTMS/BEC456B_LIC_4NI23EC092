@@ -224,9 +224,10 @@ Different Plots of grpahs Calculated :
 
 2. Drain Characteristics:
 
-
+![Image](https://github.com/user-attachments/assets/85b5f226-7e6b-43b5-be35-bdd8f5dc5c48)
 
 3. Transfer Characteristics:
+
 
 
 4. Voltage Transfer Characteristics:
