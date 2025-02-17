@@ -228,9 +228,10 @@ Different Plots of grpahs Calculated :
 
 3. Transfer Characteristics:
 
-
+![Image](https://github.com/user-attachments/assets/efaa98b1-3666-4bc0-bcf9-e6d5693235f3)
 
 4. Voltage Transfer Characteristics:
+
 
 
 5. Transient Analysis:
