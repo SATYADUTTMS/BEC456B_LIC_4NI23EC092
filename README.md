@@ -258,7 +258,7 @@ Different Plots of grpahs Calculated :
 
 It was observed that the Gm value came out to be:
 
-
+![Image](https://github.com/user-attachments/assets/7b00c1d2-24bc-4f5e-ab76-a0f31e46cae7)
 
    
 
