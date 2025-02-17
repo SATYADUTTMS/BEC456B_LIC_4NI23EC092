@@ -254,9 +254,11 @@ Different Plots of grpahs Calculated :
 
 7. Frequency Response:
 
-
+![Image](https://github.com/user-attachments/assets/b4a17315-d907-4bd0-8f17-a7eaae7abc01)
 
 It was observed that the Gm value came out to be:
+
+
 
    
 
