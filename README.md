@@ -220,9 +220,10 @@ Different Plots of grpahs Calculated :
 
 1. DC Operating Point:
 
-
+![Image](https://github.com/user-attachments/assets/75c332d1-165f-4946-b435-7fa8e920a660)
 
 2. Drain Characteristics:
+
 
 
 3. Transfer Characteristics:
