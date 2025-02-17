@@ -150,17 +150,21 @@ Some extra Observations :
 
 ![Image](https://github.com/user-attachments/assets/8494c6c3-fd3b-440e-b7ac-68bcd1bf1488)
 
+Since the Id is inversely proportional to L, and thus the Id decreases.
+
 7. Plot of Id Vs W:
 
 ![Image](https://github.com/user-attachments/assets/5d6b0801-75aa-4e04-9772-d885edefa8bf)
 
-Its Observed from Below Equation that Current increases with increase in Width and dcreases with increase in Length.
+Its Observed from Below Equation that Current Id increases with increase in Width. 
 
 ![Image](https://github.com/user-attachments/assets/76116661-fee5-4d26-b1bc-269450b1831e)
 
 8. Plot of Id Vs Rd:
 
 ![Image](https://github.com/user-attachments/assets/0bc708e2-6e24-4c4d-bd88-d36361b45c91) 
+
+Since Rd which is my load resistance increases the drain current Id decreases as per Ohm's Law, V=I*R.
 
 9. Plot of Voltage Transfer Characteristics (Vds Vs Vgs) :
 
