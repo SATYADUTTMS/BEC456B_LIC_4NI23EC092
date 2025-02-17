@@ -268,7 +268,11 @@ It was observed that the Gm value came out to be:
 
 SUMMARY :
 
-Thus as we observed, by properly having the W and L value using tsmc018.lib values its possible to get the desired value of current and to ensure the the power is stays inside the power budget limit.
+Thus as we observed, by properly having the W and L value using tsmc018.lib values its possible to get the desired value of current and to ensure the the power is stays inside the power budget limit. As we observe that the Values compared are same (approximate) with those of using Rd. Thus Rd can be replaced with Diode connected model of PMOS {using constant DC Bias Voltage}.
+
+After analysis through various graphs and at temperature of 27 deg Celsius , the above were the graphs observed and noted.
+
+
 
    
 
