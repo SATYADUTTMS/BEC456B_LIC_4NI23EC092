@@ -250,9 +250,10 @@ Different Plots of grpahs Calculated :
 
 6. Drain Current (Id) Vs DC Bias Voltage (Vb):
 
-
+![Image](https://github.com/user-attachments/assets/3200c9e0-0fbf-4149-908c-9cee1455df64)
 
 7. Frequency Response:
+
 
 
 It was observed that the Gm value came out to be:
