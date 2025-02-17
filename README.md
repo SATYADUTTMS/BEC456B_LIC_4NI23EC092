@@ -179,7 +179,7 @@ Hence a CS Amplifier of Vgs = 0.9V, W = 785nm , L = 800nm , Vdd = 1.8V and Rd = 
 We have also verified that P=V*I = 1.12*2.719*10^-5 will provide the value of 30uW which is well within the budget of 50uW.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q2. Replacing the resistor Rd and with a PMOS.
+Q2. Replacing the resistor Rd  with a PMOS.
 
 Instead of Resistor Rd, we can use diode-connected model configuration of MOSFET.Here the gate and drain are connected together as shown below :
 
@@ -205,6 +205,49 @@ We also observe that this configuration has a larger gain than the diode connect
 Example Model and Graph :
 
 ![Image](https://github.com/user-attachments/assets/d48919fe-9b9a-4b1a-846b-d71de5bca155)
+
+Coming to the circuit , below is the circuit for PMOS Diode Connected Load model of L=2u and W=0.2u {for PMOS} and keeping  W=785n and L=800n {for NMOS}.
+
+Based on the above 2 models we observed that connecting a bias DC Voltage to the gate is better than directly connecting gate and drain.
+
+CIRCUIT :
+
+
+
+Different Plots of grpahs Calculated :
+
+1. DC Operating Point:
+
+
+2. Drain Characteristics:
+
+
+3. Transfer Characteristics:
+
+
+4. Voltage Transfer Characteristics:
+
+
+5. Transient Analysis:
+
+    a. For Vin:
+
+
+    b. For Vout:
+
+
+    c. Both:
+
+
+6. Drain Current (Id) Vs DC Bias Voltage (Vb):
+
+
+7. Frequency Response:
+
+
+It was observed that the Gm value came out to be:
+
+   
 
 
 
