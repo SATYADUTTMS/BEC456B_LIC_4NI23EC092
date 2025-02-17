@@ -187,7 +187,7 @@ Example Model and Graph :
 
 ![Image](https://github.com/user-attachments/assets/109fe0ae-fe39-41cd-a5bf-8e991e2a6c48) 
 
-----------------------------------------******************--------------------------------------------****************----------------------------------**********************________________________________
+--------------------------------------- -------------------------------------------- ---------------------------------- ------------------------------------------ ---------------------------------------
 
 
 Thus we have an another case where we can apply a fixed DC bias Voltage (Vb) making sure that there is less variations of Vb upon change in circuit conditions like temperature etc, such that its maintained constant throughout.Taking the channel length modulation into consideration the Gain is provides as :
