@@ -213,10 +213,13 @@ Based on the above 2 models we observed that connecting a bias DC Voltage to the
 CIRCUIT :
 
 
+![Image](https://github.com/user-attachments/assets/a50b7a57-4a18-47a0-a445-5bfdea75ff66)
+
 
 Different Plots of grpahs Calculated :
 
 1. DC Operating Point:
+
 
 
 2. Drain Characteristics:
