@@ -176,6 +176,8 @@ Here by fundamental principle , its observed to make the MOSFET work in Saturati
 
 Hence a CS Amplifier of Vgs = 0.9V, W = 785nm , L = 800nm , Vdd = 1.8V and Rd = 25k is designed and verified for power budget of P = 50uW.
 
+We have also verified that P=V*I = 1.12*2.719*10^-5 will provide the value of 30uW which is well within the budget of 50uW.
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Q2. Replacing the resistor Rd and with a PMOS.
 
