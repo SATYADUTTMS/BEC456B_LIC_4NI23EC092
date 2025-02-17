@@ -198,6 +198,7 @@ We also observe that this configuration has a larger gain than the diode connect
 
 Example Model and Graph :
 
+![Image](https://github.com/user-attachments/assets/d48919fe-9b9a-4b1a-846b-d71de5bca155)
 
 
 
