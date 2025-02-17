@@ -162,6 +162,10 @@ Its Observed from Below Equation that Current increases with increase in Width a
 
 ![Image](https://github.com/user-attachments/assets/0bc708e2-6e24-4c4d-bd88-d36361b45c91) 
 
+9. Plot of Voltage Transfer Characteristics (Vds Vs Vgs) :
+
+
+
 
 Hence a CS Amplifier of Vgs = 0.9V, W = 785nm , L = 800nm , Vdd = 1.8V and Rd = 25k is designed and verified for power budget of P = 50uW.
 
