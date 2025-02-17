@@ -246,9 +246,10 @@ Different Plots of grpahs Calculated :
 
     c. Both:
 
-    
+    ![Image](https://github.com/user-attachments/assets/b29ee835-ca39-4074-8c4d-39adc0ef685c)
 
 6. Drain Current (Id) Vs DC Bias Voltage (Vb):
+
 
 
 7. Frequency Response:
