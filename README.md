@@ -238,10 +238,11 @@ Different Plots of grpahs Calculated :
 
     a. For Vin:
 
-    
+    ![Image](https://github.com/user-attachments/assets/d103b341-c0d3-446e-ac58-874c47d8b6f8)
 
     b. For Vout:
 
+    
 
     c. Both:
 
