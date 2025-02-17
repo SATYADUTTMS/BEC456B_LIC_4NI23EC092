@@ -168,7 +168,7 @@ Its Observed from Below Equation that Current increases with increase in Width a
 
 This is basically how the Output Voltage varies with Input Voltage for various values of the input and output sources.
 
-Here by fundamental principle , its observed to make the MOSFET work in Saturation in almost linear part to get maximum gain. Hence the operating window should be chosen correctly and the Q point should set in suc a way for the Vds, such that there will not be any distortion or clipped part of the output signal. Basically to aloow full 360 deg swing for any changes in my voltage within the Vgs windo.
+Here by fundamental principle , its observed to make the MOSFET work in Saturation in almost linear part to get maximum gain. Hence the operating window should be chosen correctly and the Q point should set in suc a way for the Vds, such that there will not be any distortion or clipped part of the output signal. Basically to aloow full 360 deg swing for any changes in my voltage within the Vgs window.
 
 Hence a CS Amplifier of Vgs = 0.9V, W = 785nm , L = 800nm , Vdd = 1.8V and Rd = 25k is designed and verified for power budget of P = 50uW.
 
