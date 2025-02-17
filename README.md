@@ -248,17 +248,27 @@ Different Plots of grpahs Calculated :
 
     ![Image](https://github.com/user-attachments/assets/b29ee835-ca39-4074-8c4d-39adc0ef685c)
 
-6. Drain Current (Id) Vs DC Bias Voltage (Vb):
+   Blue represents the Output Voltage and Input Voltage is Green. For input of 50mV its observed that Gain (calculated using peak-to-peak value) the Gain came out to be -2.6. 
+
+7. Drain Current (Id) Vs DC Bias Voltage (Vb):
 
 ![Image](https://github.com/user-attachments/assets/3200c9e0-0fbf-4149-908c-9cee1455df64)
+
+This graph basically provides the Value and range of Vb required to provide the desired drain current (Id) .
 
 7. Frequency Response:
 
 ![Image](https://github.com/user-attachments/assets/b4a17315-d907-4bd0-8f17-a7eaae7abc01)
 
+Its observed that the Higher Cutoff frequency is at 2.5Ghz.
+
 It was observed that the Gm value came out to be:
 
 ![Image](https://github.com/user-attachments/assets/7b00c1d2-24bc-4f5e-ab76-a0f31e46cae7)
+
+SUMMARY :
+
+Thus as we observed, by properly having the W and L value using tsmc018.lib values its possible to get the desired value of current and to ensure the the power is stays inside the power budget limit.
 
    
 
