@@ -1,4 +1,4 @@
-# Expt_1_CS_Amplifier
+# Expt_1_CS_Amplifier_4NI23EC092
 This file contains the Experiment 1 CS Amplifier files.
 
 MOSFETs or Metal Oxide Semiconductor Field Effect Transistor plays an important role in our day to day life because of its advantages, characteristics and numerous applications.
@@ -266,7 +266,7 @@ It was observed that the Gm value came out to be:
 
 ![Image](https://github.com/user-attachments/assets/7b00c1d2-24bc-4f5e-ab76-a0f31e46cae7)
 
-SUMMARY :
+SUMMARY / INFERENCE :
 
 Thus as we observed, by properly having the W and L value using tsmc018.lib values its possible to get the desired value of current and to ensure the the power is stays inside the power budget limit. As we observe that the Values compared are same (approximate) with those of using Rd. Thus Rd can be replaced with Diode connected model of PMOS {using constant DC Bias Voltage}.
 
@@ -276,7 +276,15 @@ The final power calculated using Rd ; P=V*I= 1.8 * 27.19u == 48.942 uW.
 
 And that of Power Calculated using PMOS ; P=V*I= 1.8 * 27.19u == 48.942 uW.
 
-It was also observed that for L=180n and W=1.12u it was possible to get the drain current with Vgs of 0.9V. But the condidtion for SATURATION was not completely satisfied as it was present at the edge of the saturation. Thus the Vgs was changed to 0.6V and it worked correctly. The other combinations like L=600n and W=0.2u and others was considered and checked.
+NMOS : W = 785n ; L = 800n
+PMOS : W = 0.2u ; L = 2u
+Vb : -5V
+Vgs : 0.9V
+Vdd : 1.8V
+Rd : 25k
+
+
+It was also observed that for L=180n and W=1.12u it was possible to get the drain current of 27.77uA with Vgs of 0.9V. But the condidtion for SATURATION was not completely satisfied as it was present at the edge of the saturation. Thus the Vgs was changed to 0.6V and it worked correctly. The other combinations like L=600n and W=0.2u and others was considered and checked.
 
 Having the above combination also provided a very good gain and hence the above W & L were chosen to meet the requirements.
 
