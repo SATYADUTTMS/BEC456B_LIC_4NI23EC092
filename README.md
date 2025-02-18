@@ -272,6 +272,8 @@ Thus as we observed, by properly having the W and L value using tsmc018.lib valu
 
 After analysis through various graphs and at temperature of 27 deg Celsius , the above were the graphs observed and noted.
 
+OBSERVATIONS:
+
 The final power calculated using Rd ; P=V*I= 1.8 * 27.19u == 48.942 uW.
 
 And that of Power Calculated using PMOS ; P=V*I= 1.8 * 27.19u == 48.942 uW.
