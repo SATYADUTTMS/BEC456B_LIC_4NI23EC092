@@ -277,10 +277,15 @@ The final power calculated using Rd ; P=V*I= 1.8 * 27.19u == 48.942 uW.
 And that of Power Calculated using PMOS ; P=V*I= 1.8 * 27.19u == 48.942 uW.
 
 NMOS : W = 785n ; L = 800n
+
 PMOS : W = 0.2u ; L = 2u
+
 Vb : -5V
+
 Vgs : 0.9V
+
 Vdd : 1.8V
+
 Rd : 25k
 
 
