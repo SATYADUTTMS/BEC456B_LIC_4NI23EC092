@@ -272,9 +272,9 @@ Thus as we observed, by properly having the W and L value using tsmc018.lib valu
 
 After analysis through various graphs and at temperature of 27 deg Celsius , the above were the graphs observed and noted.
 
-The final power calculated using Rd ; P=V*I= 1.12 * 27.19u==30.464uW.
+The final power calculated using Rd ; P=V*I= 1.8 * 27.19u == 48.942 uW.
 
-And that of Power Calculated using PMOS ; P=V*I= 1.11 * 27.18u==30.16uW.
+And that of Power Calculated using PMOS ; P=V*I= 1.8 * 27.18u == 48.924 uW.
 
 It was also observed that for L=180n and W=1.12u it was possible to get the drain current with Vgs of 0.9V. But the condidtion for SATURATION was not completely satisfied as it was present at the edge of the saturation. Thus the Vgs was changed to 0.6V and it worked correctly. The other combinations like L=600n and W=0.2u and others was considered and checked.
 
