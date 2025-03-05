@@ -2,4 +2,6 @@ This is the Github account of SATYADUTT MS bearing USN 4NI23EC092 of 4th Semeste
 
 This Repository consists of all the Github files of the Linear Integrated Circuits Lab {BEC456B} Course.
 
-To Branch consists of EXPERIMENT 1 - CS AMPLIFIER files.
+This Branch consists of EXPERIMENT 1 - CS AMPLIFIER files.
+
+To access click on CS_AMPLIFIER.md file
