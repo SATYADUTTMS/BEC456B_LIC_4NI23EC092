@@ -408,12 +408,13 @@ The below figure shows the Gain of the circuit in dB, by appling (-3dB) the gain
 ----------------------------------------------------------------------------------------------
 [C] With NMOS:
 
-
+![Image](https://github.com/user-attachments/assets/1fdbd1cc-4f74-4828-a756-0c16420b14b5) 
 
 ANALYSIS :
 -----------------------------------------------------------------------------------------
 1.DC ANALYSIS - Fixing the Operating Point (Q-Point):
 
+![Image](https://github.com/user-attachments/assets/8b602b9c-1709-450f-ac20-36b0c5c71ce8) 
 
 Length (M1 and M2) = L = 180n
 
@@ -462,9 +463,11 @@ For NMOS (used instead of Iss) :
 Vb = 0.895V
 W = 11.82u
 L = 180n
-VDS >= Vov : 0.4 >= (0.95V-0.4V)-0.495V = 0.4>= 0.055V {CONDITION SATISFIES FOR SATURATION}.
+VDS >= Vov : 0.4 >= (0.95V-0.4V)-0.495V = 0.4>= 0.055V {CONDITION SATISFIES FOR SATURATION}.  
 
 *Slightly increasing the Vcm,in from 0.95V to 1.05V (0.1V increase), then
+
+![Image](https://github.com/user-attachments/assets/d196cbc7-5938-4a93-9497-e63702de0864)
 
 
 Q - point changes to ().
@@ -473,6 +476,8 @@ Q - point changes to ().
 2. TRANSIENT ANALYSIS - Finding the maximum input and output swing
 
 CIRCUIT & WAVEFORMS -
+
+![Image](https://github.com/user-attachments/assets/e07db326-f4f1-483b-b343-5c3d7f5f5111)  
 
 We thus observe an 180 deg phase shift in output signal and output voltage being amplified.
 
@@ -486,6 +491,8 @@ Rout = Rd = 1.1456 Kilo Ohms
 
 Thus, Av = 2.68m * 1.1456 K = 3.07675
 
+
+![Image](https://github.com/user-attachments/assets/8cff4f70-f4a6-4738-8b07-9335caf807be) 
 
 To Calculate, 
 
@@ -503,7 +510,11 @@ Vocm_max = Vdd - ID*Rd = 1.8V - (0.611mA)*1.1456k = 1.1000384V.
 
 Vocm = (Vocm_min + Vocm_max)/2 = 0.9775V.
 
+![Image](https://github.com/user-attachments/assets/a71e585c-f63a-43a4-872a-f66d76b1a93d) 
+
 By applying DC offset Voltage of 1.2V and 500mV input amplitude {1.7V} , we observed the output to be clipped and whose value Vo_pp given by V.
+
+![Image](https://github.com/user-attachments/assets/855b94e2-83a4-4de0-9ef3-c13bd20b36ed) 
 
 
 
@@ -513,7 +524,7 @@ By applying DC offset Voltage of 1.2V and 500mV input amplitude {1.7V} , we obse
 The below figure shows the Gain of the circuit in dB, by appling (-3dB) the gain will be dB having the frequency at fH = 1.252Ghz and fL = 0, Thus B.W = fH - fL = Ghz.
 
 
-
+![Image](https://github.com/user-attachments/assets/8e9b6067-d79c-42a0-b771-33cbe3e03cc6
 
 
 
