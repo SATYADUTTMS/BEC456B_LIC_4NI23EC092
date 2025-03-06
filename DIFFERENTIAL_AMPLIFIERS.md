@@ -348,7 +348,7 @@ CIRCUIT & WAVEFORMS -
 
 We thus observe an 180 deg phase shift in output signal and output voltage being amplified.
 
-From graph , Gain(Av) = Vout_pp/Vin_pp = 4.609015
+From graph , Gain(Av) = Vout_pp/Vin_pp = -4.609015
 
 In terms of dB, Gain(dB) = 20*log(Av) = 20*log(5.4095) = 13.2721 dB
 
