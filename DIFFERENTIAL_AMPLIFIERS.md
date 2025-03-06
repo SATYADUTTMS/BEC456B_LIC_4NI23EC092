@@ -108,7 +108,7 @@ Now coming back to the original equation relating Vx-Vy with Vin1-Vin2, we obser
 
 |Vin1-Vin2|^2 << 4Iss/(Un*Cox*W/L)
 
-Such that :
+
 
 
 
