@@ -18,20 +18,11 @@ Similarly at pin 3 = V2(signal) : Vcm(noise) + Vin2(actual signal)
 
 and thus considering the difference of these V1 - V2 = Vin1 - Vin2 and thus Vout = Ad * Vin , where Vin = Vin1 - Vin2. And thus the definition, the difference of the input signals getting amplified by a factor Ad is what it gives the output.
 
-Thus the pictorial representation is as follows :
-
-
-
 NOTE : Differential Signals:
 1. They vary by equal and opposite amounts.
 2. They have same average (dc) value : the common mode level.
 
 Where are these the Differential Amplifiers used then ? OP-AMPS and many more circuits.
-
-Example (OP-AMP):
-
-
-
 
 GENERAL STRUCTURE OF MOS DIFFERENTIAL AMPLIFIER :
 
@@ -56,10 +47,7 @@ Higher transconductance and good Gain.
 
 
 and Thus the output Voltage taken across Vx and Vy is Vx= Vy = Vdd - Rd*Iss/2 .
-After rearranging the terms Vgs is given by
-
-
-and Similary the Equilibrium Overdrive Voltage as :
+After rearranging the terms the Equilibrium Overdrive Voltage is given as :
 
 
 
@@ -87,7 +75,7 @@ Vx-Vy is given by Vdd-Id1*Rd-(Vdd-Id2*Rd) = -Rd(Id1 - Id2) . Here negative becau
 
 And thus for a particular high value of input voltage one of the MOSFET becomes ON and the other is OFF {END Conditions} and have values -Rd*Iss. Ex: if Id1 flows and Id2 is 0 then Iss = Id1.
 
-Q. Whatis this minimum value of Vin-Vin2 at which one MOSFET turns OFF ?
+Q. What is this minimum value of Vin-Vin2 at which one MOSFET turns OFF ?
 
 ANS : Assume Vin1 > Vin2 , then the M1 conducts and M2 should be off orjust starting to get turn off, observing the Saturation current equation we observe that when Vgs = Vth this condition occurs, also the Vp is given by
 
