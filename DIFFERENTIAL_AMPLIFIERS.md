@@ -288,12 +288,15 @@ The below figure shows the Gain of the circuit in dB, by appling (-3dB) the gain
 -----------------------------------------------------------------------------------------------
 [B] With Current Source Iss:
 
+![Image](https://github.com/user-attachments/assets/caf2007c-33cf-4ffd-94c0-cbe02342dd0f) 
+
 
 
 ANALYSIS :
 -----------------------------------------------------------------------------------------
 1.DC ANALYSIS - Fixing the Operating Point (Q-Point):
 
+![Image](https://github.com/user-attachments/assets/249836a9-f340-4dd1-a94a-91501cfaadd4) 
 
 Length (M1 and M2) = L = 180n
 
@@ -340,6 +343,8 @@ Q-POINT = (0.7V,0.611mA)
 
 *Slightly increasing the Vcm,in from 0.95V to 1.05V (0.1V increase), then
 
+![Image](https://github.com/user-attachments/assets/b72fcef0-c211-496a-ab8f-1169313f3203)
+
 
 Q - point changes to (0.581373V,0.63mA).
 
@@ -348,7 +353,11 @@ Q - point changes to (0.581373V,0.63mA).
 
 CIRCUIT & WAVEFORMS -
 
+![Image](https://github.com/user-attachments/assets/ebecc9dc-9ffe-446b-ab93-6b05c4f9ae8a)
+
 We thus observe an 180 deg phase shift in output signal and output voltage being amplified.
+
+![Image](https://github.com/user-attachments/assets/78f57db7-b2b2-4ed2-a144-88719c2d7d7e) 
 
 From graph , Gain(Av) = Vout_pp/Vin_pp = -4.609015
 
@@ -377,7 +386,11 @@ Vocm_max = Vdd - ID*Rd = 1.8V - (0.611mA)*1.1456k = 1.1000384V.
 
 Vocm = (Vocm_min + Vocm_max)/2 = 0.9775V.
 
+![Image](https://github.com/user-attachments/assets/e785df80-5dec-487e-9b08-58205addd87d)
+
 By applying DC offset Voltage of 1.2V and 500mV input amplitude {1.7V} , we observed the output to be clipped and whose value Vo_pp given by 1.265898V.
+
+![Image](https://github.com/user-attachments/assets/ea2e347d-c358-4cd9-aa23-a795404dd257)
 
 
 
@@ -387,7 +400,7 @@ By applying DC offset Voltage of 1.2V and 500mV input amplitude {1.7V} , we obse
 The below figure shows the Gain of the circuit in dB, by appling (-3dB) the gain will be 10.2721dB having the frequency at fH = 1.252Ghz and fL = 0, Thus B.W = fH - fL = 1.252Ghz.
 
 
-
+![Image](https://github.com/user-attachments/assets/c3ac39e4-4a9a-4860-aac9-0279fce10646)
 
 
 
