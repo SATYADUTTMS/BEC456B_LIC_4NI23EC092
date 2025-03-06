@@ -368,7 +368,7 @@ By applying DC offset Voltage of 1.2V and 500mV input amplitude {1.7V} , we obse
 -----------------------------------------------------------------------------------------
 3. AC ANALYSIS - Finding the Bandwidth
 
-The below figure shows the Gain of the circuit in dB, by appling (-3dB) the gain will be 11.663dB having the frequency at fH = 1.252Ghz and fL = 0, Thus B.W = fH - fL = 1.252Ghz.
+The below figure shows the Gain of the circuit in dB, by appling (-3dB) the gain will be 10.2721dB having the frequency at fH = 1.252Ghz and fL = 0, Thus B.W = fH - fL = 1.252Ghz.
 
 
 
