@@ -147,7 +147,9 @@ Vdd = 1.8v , P <= 2.2mW , Vicm = 0.95v , Vocm = 1.1v , Vp = 0.4V.
 
 To perform the DC Analysis,Transient Analysis, Frequency Response and to extract the parameters.
 
+![Image](https://github.com/user-attachments/assets/07ba5c99-892f-4ed6-baad-54b4c2d58f73)
 
+![Image](https://github.com/user-attachments/assets/344bffac-b9f0-4b58-8610-ebdce7c0ada4)
 
 
 Based on the calculations { as shown above }
