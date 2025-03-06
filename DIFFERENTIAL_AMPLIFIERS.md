@@ -460,7 +460,7 @@ Q-POINT = (0.7V,0.611mA)
 
 For NMOS (used instead of Iss) :
 Vb = 0.895V
-W = 11.32u
+W = 11.82u
 L = 180n
 VDS >= Vov : 0.4 >= (0.95V-0.4V)-0.495V = 0.4>= 0.055V {CONDITION SATISFIES FOR SATURATION}.
 
