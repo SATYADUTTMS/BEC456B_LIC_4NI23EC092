@@ -549,7 +549,13 @@ INFERENCE / SUMMARY :
 
 8. Also we need to need observe that the 'BODY-EFFECT' plays a role here , and thus we know that it increases the threshold voltage thus we are using Vtn = 0.497V and not Vth = 0.366V.
 
-   TABULAR_COLUMN:
+9. In all the cases, the circuit lies within the Power Budget (<=2.2mW).
+
+10. TABULAR_COLUMN:
+
+   ![Image](https://github.com/user-attachments/assets/6df3a964-5ea0-429e-8825-28c0a1c6a245)
+
+   
 
    
     
