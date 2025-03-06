@@ -533,6 +533,24 @@ The below figure shows the Gain of the circuit in 13.5793dB, by appling (-3dB) t
 
 INFERENCE / SUMMARY :
 
+1. Noise Rejection (Common-Mode Rejection): Differential amplifiers effectively remove common-mode noise, making them ideal for applications like ECG signal amplification where low-level signals need to be extracted from noisy environments.
+
+2. Operating in Saturation Region: The MOSFETs in the differential pair must remain in saturation to ensure high transconductance and gain. This is verified by the conditions VDS >= Vov.
+
+3. Gain Characteristics: The voltage gain of the designed amplifier was approximately -5.3158 V/V (14.51 dB), which aligns with the small-signal model prediction  Av = gm*Rd.
+
+4. Common-Mode Input and Output Range: The common-mode input voltage range was found to be 0.895V to 1.595V, while the common-mode output voltage range was 0.855V to 1.100V, defining the operational limits.
+
+5. Large Signal Behavior: The circuit exhibits 180° phase shift between input and output, confirming inverting behavior. Beyond certain input limits, the output clips due to saturation effects.
+
+6. Effect of Increasing Iss or W/L: Increasing Iss improves linearity, allowing for a wider input range, while increasing W/L reduces linearity, limiting the acceptable input range before transistor cut-off occurs.
+   
+7. Note that the AC / Transient Analysis we have applied an input AC Voltage is given at only one end.This helps to better analyse the analysis part. However adding the 180 deg phase shift signal to other end increases the gain as the difference of these 2 signals increases.
+
+8. Also we need to need observe that the 'BODY-EFFECT' plays a role here , and thus we know that it increases the threshold voltage thus we are using Vtn = 0.497V and not Vth = 0.366V.
+
+9. TABULAR COLUMN:
+    
 
    
 
