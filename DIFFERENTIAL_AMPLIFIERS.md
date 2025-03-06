@@ -270,6 +270,113 @@ The below figure shows the Gain of the circuit in dB, by appling (-3dB) the gain
 
 
 -----------------------------------------------------------------------------------------------
+[C] With NMOS:
+
+
+
+ANALYSIS :
+-----------------------------------------------------------------------------------------
+1.DC ANALYSIS - Fixing the Operating Point (Q-Point):
+
+
+Length (M1 and M2) = L = 180n
+
+Width (M1 and M2) = W = 108.3u
+
+MOSFET M1 :
+
+Vcm,in = 0.95V
+
+Vocm1 = 1.100V
+
+Id1 = 0.611mA
+
+Vtn = 0.495V
+
+VGS = 0.95 - 0.4 = 0.55V
+
+From the figure , Vdd = IdRd + VDS + Vp
+
+thus, VDS = 1.8 - 0.699 - 0.4 = 0.701v
+
+Similarly for MOSFET M2 as they are perfectly matched and are symmetric.
+
+To verify the Saturation Conditions :
+VGD <= Vtn
+
+(0.95V-1.1V) <= 0.495V
+
+-0.15V <= 0.495V {CONDITION SATISFIES}
+
+Also
+
+VDS >= Vov
+
+(1.1V-0.4V) >= VGS - Vtn
+
+(1.1V-0.4V) >= (0.95V-0.4V) - 0.495V
+
+0.7V >= 0.055V {CONDITION SATISFIES}
+
+Hence, we can say that the MOSFETS are in SATURATION REGION.
+
+Q-POINT = (0.7V,0.611mA)
+
+*Slightly increasing the Vcm,in from 0.95V to 1.05V (0.1V increase), then
+
+
+Q - point changes to (0.581373V,0.63mA).
+
+-----------------------------------------------------------------------------------------
+2. TRANSIENT ANALYSIS - Finding the maximum input and output swing
+
+CIRCUIT & WAVEFORMS -
+
+We thus observe an 180 deg phase shift in output signal and output voltage being amplified.
+
+From graph , Gain(Av) = Vout_pp/Vin_pp = 4.609015
+
+In terms of dB, Gain(dB) = 20*log(Av) = 20*log(5.4095) = 13.2721 dB
+
+Overall gain using Small signal model is given by Av = Gm * Rd, gm = 2*Id/Vov = (2*0.611mA)/(0.95-0.495) = 2.68m
+
+Rout = Rd = 1.1456 Kilo Ohms
+
+Thus, Av = 2.68m * 1.1456 K = 3.07675
+
+
+To Calculate, 
+
+Vcm,in_min = Vtn + Vp = 0.495V + 0.4V = 0.895V
+
+Vcm,in_max = Vdd - (Iss/2)*Rd + Vtn = 1.8v-(1.222mA/2)* 1.1456K + 0.495V = 1.5950384V.
+
+Vcm,in = (Vin,cm_min + Vin,cm_max)/2 = 1.245V
+
+Similarly,
+
+Vocm_min = Vov + Vp = (0.95V-0.495V) + 0.4V = 0.855V
+
+Vocm_max = Vdd - ID*Rd = 1.8V - (0.611mA)*1.1456k = 1.1000384V.
+
+Vocm = (Vocm_min + Vocm_max)/2 = 0.9775V.
+
+By applying DC offset Voltage of 1.2V and 500mV input amplitude {1.7V} , we observed the output to be clipped and whose value Vo_pp given by 1.265898V.
+
+
+
+-----------------------------------------------------------------------------------------
+3. AC ANALYSIS - Finding the Bandwidth
+
+The below figure shows the Gain of the circuit in dB, by appling (-3dB) the gain will be 10.2721dB having the frequency at fH = 1.252Ghz and fL = 0, Thus B.W = fH - fL = 1.252Ghz.
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------
 [B] With Current Source Iss:
 
 
@@ -371,6 +478,15 @@ By applying DC offset Voltage of 1.2V and 500mV input amplitude {1.7V} , we obse
 The below figure shows the Gain of the circuit in dB, by appling (-3dB) the gain will be 10.2721dB having the frequency at fH = 1.252Ghz and fL = 0, Thus B.W = fH - fL = 1.252Ghz.
 
 
+
+
+
+
+
+----------------------------------------------------------------------------------------------
+
+
+   
 
    
 
