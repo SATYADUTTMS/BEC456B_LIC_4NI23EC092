@@ -166,12 +166,14 @@ VARIOUS CIRCUITS:
 
 [A] With Resistor Rss:
 
+![Image](https://github.com/user-attachments/assets/5cfd20c5-c4ea-450f-bf1d-6a54aa890226)
 
 
 ANALYSIS :
 -----------------------------------------------------------------------------------------
 1.DC ANALYSIS - Fixing the Operating Point (Q-Point):
 
+![Image](https://github.com/user-attachments/assets/dcac2a8e-1076-4677-8d7c-dc0570cef815)  
 
 Length (M1 and M2) = L = 180n
 
@@ -218,6 +220,8 @@ Q-POINT = (0.7V,0.611mA)
 
 *Slightly increasing the Vcm,in from 0.95V to 1.05V (0.1V increase), then
 
+![Image](https://github.com/user-attachments/assets/9422d152-7707-4dc1-b569-444c34314328) 
+
 
 Q - point changes to (0.471931V,0.73mA).
 
@@ -226,11 +230,15 @@ Q - point changes to (0.471931V,0.73mA).
 
 CIRCUIT & WAVEFORMS -
 
+![Image](https://github.com/user-attachments/assets/fd42cda6-179b-454e-88ec-3df15eef2ed4)
+
 We thus observe an 180 deg phase shift in output signal and output voltage being amplified.
 
-From graph , Gain(Av) = Vout_pp/Vin_pp = 
+![Image](https://github.com/user-attachments/assets/332eb4a5-a6d3-40ad-abeb-9cabd98a1821) 
 
-In terms of dB, Gain(dB) = 20*log(Av) = 20*log(5.4095) = 14.6631 dB
+From graph , Gain(Av) = Vout_pp/Vin_pp = -5.3158
+
+In terms of dB, Gain(dB) = 20*log(Av) = 20*log(5.3158) = 14.5113 dB
 
 Overall gain using Small signal model is given by Av = Gm * Rd, gm = 2*Id/Vov = (2*0.611mA)/(0.95-0.495) = 2.685m
 
@@ -255,14 +263,20 @@ Vocm_max = Vdd - ID*Rd = 1.8V - (0.611mA)*1.1456k = 1.1000384V.
 
 Vocm = (Vocm_min + Vocm_max)/2 = 0.9775V.
 
+![Image](https://github.com/user-attachments/assets/f1773935-ec01-446d-87fd-05e6c5f7737f) 
+
 By applying DC offset Voltage of 1.2V and 500mV input amplitude {1.7V} , we observed the output to be clipped and whose value Vo_pp given by 1.32108V.
+
+![Image](https://github.com/user-attachments/assets/9a1ad902-0704-4dbe-a910-8c6256eb0e45)
 
 
 
 -----------------------------------------------------------------------------------------
 3. AC ANALYSIS - Finding the Bandwidth
 
-The below figure shows the Gain of the circuit in dB, by appling (-3dB) the gain will be 11.663dB having the frequency at fH = 1.273Ghz and fL = 0, Thus B.W = fH - fL = 1.273Ghz.
+The below figure shows the Gain of the circuit in dB, by appling (-3dB) the gain will be 11.5113dB having the frequency at fH = 1.273Ghz and fL = 0, Thus B.W = fH - fL = 1.273Ghz.
+
+![Image](https://github.com/user-attachments/assets/a630fe43-16b0-4040-9698-7c33b371390b) 
 
 
 
@@ -270,7 +284,7 @@ The below figure shows the Gain of the circuit in dB, by appling (-3dB) the gain
 
 
 -----------------------------------------------------------------------------------------------
-[C] With NMOS:
+[B] With Current Source Iss:
 
 
 
@@ -377,7 +391,7 @@ The below figure shows the Gain of the circuit in dB, by appling (-3dB) the gain
 
 
 ----------------------------------------------------------------------------------------------
-[B] With Current Source Iss:
+[C] NMOS:
 
 
 
