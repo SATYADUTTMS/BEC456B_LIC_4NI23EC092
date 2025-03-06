@@ -115,7 +115,7 @@ Now coming back to the original equation relating Vx-Vy with Vin1-Vin2, we obser
 
 Such that :
 
-Slope{ GAIN } is given by : 
+
 
 Q.What happens if Iss is doubled ?
 
