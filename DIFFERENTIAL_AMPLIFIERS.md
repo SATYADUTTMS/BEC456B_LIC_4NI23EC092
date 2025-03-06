@@ -99,12 +99,7 @@ OBSERVATIONS :
 1.Id1-Id2 = 0 when Vin1=Vin2 , but since we have the under-root term holding up 2 positive values, it possible that the square term becoming equal to 4Iss/(Un*Cox*W/L) leads the Id1-Id2 to become zero, something like this:
 
 
-Thus the above equation is valid only if M1 and M2 are ON and at the edge of transistor turn OFF, and what is that up-to value of Vin1-Vin2 value that has this condtition ? (as stated earlier):
-
-
-
-
-WE know this is equal to Root(2) * Equilibrium Overdrive Voltage :
+Thus the above equation is valid only if M1 and M2 are ON and at the edge of transistor turn OFF, and what is that up-to value of Vin1-Vin2 value that has this condtition ? (as stated earlier):WE know this is equal to Root(2) * Equilibrium Overdrive Voltage :
 
 
 So thus, Minimum |Vin1-Vin2| to turn off one side = Root(2)*Equilibrium Overdrive Voltage
