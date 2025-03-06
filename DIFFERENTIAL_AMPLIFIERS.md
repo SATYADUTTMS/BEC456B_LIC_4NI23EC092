@@ -524,7 +524,7 @@ By applying DC offset Voltage of 1.2V and 500mV input amplitude {1.7V} , we obse
 The below figure shows the Gain of the circuit in dB, by appling (-3dB) the gain will be dB having the frequency at fH = 1.252Ghz and fL = 0, Thus B.W = fH - fL = Ghz.
 
 
-![Image](https://github.com/user-attachments/assets/8e9b6067-d79c-42a0-b771-33cbe3e03cc6
+![Image](https://github.com/user-attachments/assets/8e9b6067-d79c-42a0-b771-33cbe3e03cc6)
 
 
 
