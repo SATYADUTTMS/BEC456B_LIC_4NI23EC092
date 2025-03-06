@@ -26,7 +26,7 @@ Where are these the Differential Amplifiers used then ? OP-AMPS and many more ci
 
 GENERAL STRUCTURE OF MOS DIFFERENTIAL AMPLIFIER :
 
-
+![Image](https://github.com/user-attachments/assets/7932856c-856c-4322-b239-030eada6354e)
 
 Let's go through the General Properties :
 
@@ -34,12 +34,14 @@ Let's go through the General Properties :
 
    CIRCUIT :
 
+![Image](https://github.com/user-attachments/assets/894143ec-d4cb-4fac-b606-3914f56d0520) 
 
 
    Here Vin1 = Vin2 , and thus the Differential pair is in "EQUILIBRIUM".As a result, current flows through the MOSFETS {Id1=Id2=Iss/2} from Supply {Vdd} through Drain resistances {Rd} and through mosfets and then getting joined to form current source ,Iss [Tail- Current] and to ground.
 
 Since we are using the MOSFET in Saturation region, the current flowing is given by equation 
 
+![Image](https://github.com/user-attachments/assets/74db5abd-b4ae-445f-ac8d-417cb080cf9f)  
 
 Why Saturation ?
 
@@ -49,7 +51,7 @@ Higher transconductance and good Gain.
 and Thus the output Voltage taken across Vx and Vy is Vx= Vy = Vdd - Rd*Iss/2 .
 After rearranging the terms the Equilibrium Overdrive Voltage is given as :
 
-
+![Image](https://github.com/user-attachments/assets/27b117fe-8b4b-4828-9cae-376804e4046e)
 
 Q.If Vcm,in changes, what quantities in the circuit changes ? 
 
@@ -60,16 +62,21 @@ ANS : Nothing Changes.
 
    CIRCUIT :
 
+![Image](https://github.com/user-attachments/assets/68d85071-c834-441e-a3d3-544374dae114)
 
 
 As the Vin is different (same dc and complimentary)
 
    Considering the plot of Id Vs Vin1-Vin2 its observed as follows:
 
+   ![Image](https://github.com/user-attachments/assets/0f9df25e-6884-46b4-926a-4056f6378711) 
+
 
 When  one of the input is given high , more drain current flows and Iss will hold that value and thus the other drain current of another MOSFET decreases and vice versa.When Vin1-Vin2 = 0 or Vin1=Vin2 then there is equal amounts of current flowing the drain current has the drain current value as Iss/2 as shown in the figure.
 
    Now considering the plot of Vx-Vy Vs Vin1-Vin2 its observed as follows:
+
+   ![Image](https://github.com/user-attachments/assets/9ee0b51e-0d8e-44ec-9a83-717b2515a987)  
 
 Vx-Vy is given by Vdd-Id1*Rd-(Vdd-Id2*Rd) = -Rd(Id1 - Id2) . Here negative because of inverting.
 
@@ -84,22 +91,31 @@ From M2 : Vp = Vgs2 = {Vth}
 
 as shown below and ,thus substituting the values when get the below Equation:
 
-
+![Image](https://github.com/user-attachments/assets/fadc499b-875b-41fc-8b1b-947a159ee9a3) 
 
 
 LARGE SIGNAL ANALYSIS :
 
 Lets now find out the equation for the plot of Vx-Vy Vs Vin1-Vin2 , from the above equations we have :
 
-
+![Image](https://github.com/user-attachments/assets/9ee0b51e-0d8e-44ec-9a83-717b2515a987)
 
 
 OBSERVATIONS :
 
 1.Id1-Id2 = 0 when Vin1=Vin2 , but since we have the under-root term holding up 2 positive values, it possible that the square term becoming equal to 4Iss/(Un*Cox*W/L) leads the Id1-Id2 to become zero, something like this:
 
+![Image](https://github.com/user-attachments/assets/b49fe525-b576-4243-8523-9f770f1f4bc1)
+
+When terms inside square root becomes zero then,
+
+![Image](https://github.com/user-attachments/assets/1ce42fdf-ec4d-4f4b-8225-401eb6bcda14) 
+
 
 Thus the above equation is valid only if M1 and M2 are ON and at the edge of transistor turn OFF, and what is that up-to value of Vin1-Vin2 value that has this condtition ? (as stated earlier):WE know this is equal to Root(2) * Equilibrium Overdrive Voltage :
+
+
+![Image](https://github.com/user-attachments/assets/fadc499b-875b-41fc-8b1b-947a159ee9a3) 
 
 
 So thus, Minimum |Vin1-Vin2| to turn off one side = Root(2)*Equilibrium Overdrive Voltage
@@ -116,12 +132,13 @@ Q.What happens if Iss is doubled ?
 
 Ans: Referring to the circuit below , the slope changes and it becomes more linear because it can take a larger input difference without "DYING".
 
-
+![Image](https://github.com/user-attachments/assets/a54e673b-eba6-4084-9fb8-712895896268)  
 
 Q. What happens if W/L is doubled ?
 
 Ans : The circuit becomes less linear, because it can take only a smaller input difference before it "DIES".
 
+![Image](https://github.com/user-attachments/assets/d51461c2-08a3-4d96-997e-5a8b271ccb14) 
 -----------------------------------------------------------------------------------------
 Coming to the experiment and analysis.
 
