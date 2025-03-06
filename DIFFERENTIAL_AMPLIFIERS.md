@@ -549,7 +549,7 @@ INFERENCE / SUMMARY :
 
 8. Also we need to need observe that the 'BODY-EFFECT' plays a role here , and thus we know that it increases the threshold voltage thus we are using Vtn = 0.497V and not Vth = 0.366V.
 
-9. TABULAR COLUMN:
+   TABULAR_COLUMN:
     
 
    
