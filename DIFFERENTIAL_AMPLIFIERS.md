@@ -406,7 +406,7 @@ The below figure shows the Gain of the circuit in dB, by appling (-3dB) the gain
 
 
 ----------------------------------------------------------------------------------------------
-[C] NMOS:
+[C] With NMOS:
 
 
 
@@ -458,10 +458,16 @@ Hence, we can say that the MOSFETS are in SATURATION REGION.
 
 Q-POINT = (0.7V,0.611mA)
 
+For NMOS (used instead of Iss) :
+Vb = 0.895V
+W = 11.32u
+L = 180n
+VDS >= Vov : 0.4 >= (0.95V-0.4V)-0.495V = 0.4>= 0.055V {CONDITION SATISFIES FOR SATURATION}.
+
 *Slightly increasing the Vcm,in from 0.95V to 1.05V (0.1V increase), then
 
 
-Q - point changes to (0.581373V,0.63mA).
+Q - point changes to ().
 
 -----------------------------------------------------------------------------------------
 2. TRANSIENT ANALYSIS - Finding the maximum input and output swing
@@ -470,9 +476,9 @@ CIRCUIT & WAVEFORMS -
 
 We thus observe an 180 deg phase shift in output signal and output voltage being amplified.
 
-From graph , Gain(Av) = Vout_pp/Vin_pp = 4.609015
+From graph , Gain(Av) = Vout_pp/Vin_pp = 
 
-In terms of dB, Gain(dB) = 20*log(Av) = 20*log(5.4095) = 13.2721 dB
+In terms of dB, Gain(dB) = 20*log(Av) = 20*log(5.4095) =  dB
 
 Overall gain using Small signal model is given by Av = Gm * Rd, gm = 2*Id/Vov = (2*0.611mA)/(0.95-0.495) = 2.68m
 
@@ -497,14 +503,14 @@ Vocm_max = Vdd - ID*Rd = 1.8V - (0.611mA)*1.1456k = 1.1000384V.
 
 Vocm = (Vocm_min + Vocm_max)/2 = 0.9775V.
 
-By applying DC offset Voltage of 1.2V and 500mV input amplitude {1.7V} , we observed the output to be clipped and whose value Vo_pp given by 1.265898V.
+By applying DC offset Voltage of 1.2V and 500mV input amplitude {1.7V} , we observed the output to be clipped and whose value Vo_pp given by V.
 
 
 
 -----------------------------------------------------------------------------------------
 3. AC ANALYSIS - Finding the Bandwidth
 
-The below figure shows the Gain of the circuit in dB, by appling (-3dB) the gain will be 10.2721dB having the frequency at fH = 1.252Ghz and fL = 0, Thus B.W = fH - fL = 1.252Ghz.
+The below figure shows the Gain of the circuit in dB, by appling (-3dB) the gain will be dB having the frequency at fH = 1.252Ghz and fL = 0, Thus B.W = fH - fL = Ghz.
 
 
 
