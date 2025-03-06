@@ -139,7 +139,7 @@ Q. What happens if W/L is doubled ?
 Ans : The circuit becomes less linear, because it can take only a smaller input difference before it "DIES".
 
 ![Image](https://github.com/user-attachments/assets/d51461c2-08a3-4d96-997e-5a8b271ccb14) 
------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 Coming to the experiment and analysis.
 
 Q. Design and analyze the differential amplifier for the following specifications.
@@ -164,7 +164,7 @@ Rd = 1.1456 Kilo Ohms
 
 
 VARIOUS CIRCUITS:
------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 [A] With Resistor Rss:
 
@@ -172,7 +172,7 @@ VARIOUS CIRCUITS:
 
 
 ANALYSIS :
------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 1.DC ANALYSIS - Fixing the Operating Point (Q-Point):
 
 ![Image](https://github.com/user-attachments/assets/dcac2a8e-1076-4677-8d7c-dc0570cef815)  
@@ -227,7 +227,7 @@ Q-POINT = (0.7V,0.611mA)
 
 Q - point changes to (0.471931V,0.73mA).
 
------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 2. TRANSIENT ANALYSIS - Finding the maximum input and output swing
 
 CIRCUIT & WAVEFORMS -
@@ -273,7 +273,7 @@ By applying DC offset Voltage of 1.2V and 500mV input amplitude {1.7V} , we obse
 
 
 
------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 3. AC ANALYSIS - Finding the Bandwidth
 
 The below figure shows the Gain of the circuit in dB, by appling (-3dB) the gain will be 11.5113dB having the frequency at fH = 1.273Ghz and fL = 0, Thus B.W = fH - fL = 1.273Ghz.
@@ -285,7 +285,7 @@ The below figure shows the Gain of the circuit in dB, by appling (-3dB) the gain
 
 
 
------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 [B] With Current Source Iss:
 
 ![Image](https://github.com/user-attachments/assets/caf2007c-33cf-4ffd-94c0-cbe02342dd0f) 
@@ -293,7 +293,7 @@ The below figure shows the Gain of the circuit in dB, by appling (-3dB) the gain
 
 
 ANALYSIS :
------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 1.DC ANALYSIS - Fixing the Operating Point (Q-Point):
 
 ![Image](https://github.com/user-attachments/assets/249836a9-f340-4dd1-a94a-91501cfaadd4) 
@@ -348,7 +348,7 @@ Q-POINT = (0.7V,0.611mA)
 
 Q - point changes to (0.581373V,0.63mA).
 
------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 2. TRANSIENT ANALYSIS - Finding the maximum input and output swing
 
 CIRCUIT & WAVEFORMS -
@@ -394,7 +394,7 @@ By applying DC offset Voltage of 1.2V and 500mV input amplitude {1.7V} , we obse
 
 
 
------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 3. AC ANALYSIS - Finding the Bandwidth
 
 The below figure shows the Gain of the circuit in dB, by appling (-3dB) the gain will be 10.2721dB having the frequency at fH = 1.252Ghz and fL = 0, Thus B.W = fH - fL = 1.252Ghz.
@@ -405,13 +405,13 @@ The below figure shows the Gain of the circuit in dB, by appling (-3dB) the gain
 
 
 
-----------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 [C] With NMOS:
 
 ![Image](https://github.com/user-attachments/assets/1fdbd1cc-4f74-4828-a756-0c16420b14b5) 
 
 ANALYSIS :
------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 1.DC ANALYSIS - Fixing the Operating Point (Q-Point):
 
 ![Image](https://github.com/user-attachments/assets/8b602b9c-1709-450f-ac20-36b0c5c71ce8) 
@@ -472,7 +472,7 @@ VDS >= Vov : 0.4 >= (0.95V-0.4V)-0.495V = 0.4>= 0.055V {CONDITION SATISFIES FOR 
 
 Q - point changes to (0.581373V,0.631mA).
 
------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 2. TRANSIENT ANALYSIS - Finding the maximum input and output swing
 
 CIRCUIT & WAVEFORMS -
@@ -518,7 +518,7 @@ By applying DC offset Voltage of 1.2V and 500mV input amplitude {1.7V} , we obse
 
 
 
------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 3. AC ANALYSIS - Finding the Bandwidth
 
 The below figure shows the Gain of the circuit in 13.5793dB, by appling (-3dB) the gain will be  10.5793 dB having the frequency at fH = 1.477Ghz and fL = 0, Thus B.W = fH - fL = 1.477 Ghz.
@@ -529,7 +529,9 @@ The below figure shows the Gain of the circuit in 13.5793dB, by appling (-3dB) t
 
 
 
-----------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+INFERENCE / SUMMARY :
 
 
    
