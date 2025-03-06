@@ -255,7 +255,7 @@ Vocm_max = Vdd - ID*Rd = 1.8V - (0.611mA)*1.1456k = 1.1000384V.
 
 Vocm = (Vocm_min + Vocm_max)/2 = 0.9775V.
 
-By applying DC offset Voltage of 1.4V and 500mV input amplitude {1.9V} , we observed the output to be clipped and whose value Vo_pp given by 
+By applying DC offset Voltage of 1.2V and 500mV input amplitude {1.7V} , we observed the output to be clipped and whose value Vo_pp given by 
 
 
 
