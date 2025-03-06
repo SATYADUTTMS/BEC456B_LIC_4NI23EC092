@@ -343,7 +343,7 @@ Q-POINT = (0.7V,0.611mA)
 
 *Slightly increasing the Vcm,in from 0.95V to 1.05V (0.1V increase), then
 
-![Image](https://github.com/user-attachments/assets/b72fcef0-c211-496a-ab8f-1169313f3203)
+![Image](https://github.com/user-attachments/assets/01618b47-1b3a-415d-8101-c506f220d678)
 
 
 Q - point changes to (0.581373V,0.63mA).
