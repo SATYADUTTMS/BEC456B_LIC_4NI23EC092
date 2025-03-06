@@ -470,7 +470,7 @@ VDS >= Vov : 0.4 >= (0.95V-0.4V)-0.495V = 0.4>= 0.055V {CONDITION SATISFIES FOR 
 ![Image](https://github.com/user-attachments/assets/d196cbc7-5938-4a93-9497-e63702de0864)
 
 
-Q - point changes to ().
+Q - point changes to (0.581373V,0.631mA).
 
 -----------------------------------------------------------------------------------------
 2. TRANSIENT ANALYSIS - Finding the maximum input and output swing
@@ -481,9 +481,9 @@ CIRCUIT & WAVEFORMS -
 
 We thus observe an 180 deg phase shift in output signal and output voltage being amplified.
 
-From graph , Gain(Av) = Vout_pp/Vin_pp = 
+From graph , Gain(Av) = Vout_pp/Vin_pp = -4.77496
 
-In terms of dB, Gain(dB) = 20*log(Av) = 20*log(5.4095) =  dB
+In terms of dB, Gain(dB) = 20*log(Av) = 20*log(4.77496) = 13.5793 dB
 
 Overall gain using Small signal model is given by Av = Gm * Rd, gm = 2*Id/Vov = (2*0.611mA)/(0.95-0.495) = 2.68m
 
@@ -512,7 +512,7 @@ Vocm = (Vocm_min + Vocm_max)/2 = 0.9775V.
 
 ![Image](https://github.com/user-attachments/assets/a71e585c-f63a-43a4-872a-f66d76b1a93d) 
 
-By applying DC offset Voltage of 1.2V and 500mV input amplitude {1.7V} , we observed the output to be clipped and whose value Vo_pp given by V.
+By applying DC offset Voltage of 1.2V and 500mV input amplitude {1.7V} , we observed the output to be clipped and whose value Vo_pp given by 1.2838 V.
 
 ![Image](https://github.com/user-attachments/assets/855b94e2-83a4-4de0-9ef3-c13bd20b36ed) 
 
@@ -521,7 +521,7 @@ By applying DC offset Voltage of 1.2V and 500mV input amplitude {1.7V} , we obse
 -----------------------------------------------------------------------------------------
 3. AC ANALYSIS - Finding the Bandwidth
 
-The below figure shows the Gain of the circuit in dB, by appling (-3dB) the gain will be dB having the frequency at fH = 1.252Ghz and fL = 0, Thus B.W = fH - fL = Ghz.
+The below figure shows the Gain of the circuit in 13.5793dB, by appling (-3dB) the gain will be  10.5793 dB having the frequency at fH = 1.477Ghz and fL = 0, Thus B.W = fH - fL = 1.477 Ghz.
 
 
 ![Image](https://github.com/user-attachments/assets/8e9b6067-d79c-42a0-b771-33cbe3e03cc6)
