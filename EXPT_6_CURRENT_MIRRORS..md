@@ -4,7 +4,7 @@ We know that,
 
 Itotal = P/Vdd = 1mW/1.8V = 0.555 mA
 
-Iref = Id = Itotal/2 = 0.555mA/2 = 0.2775 mA
+Iref = Id = Itotal/2 = 0.555mA/2 = 0.277 mA
 
 To find Vin , Av = -gm * Rout = -gm *(ro1||r02) .
 
