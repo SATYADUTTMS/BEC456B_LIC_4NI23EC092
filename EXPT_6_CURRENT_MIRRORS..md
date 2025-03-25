@@ -1,4 +1,6 @@
-Design and analyze current mirror circuit as active load in amplifier circuit , which has a gain of AV = -10V/V, power supply of Vdd = 1.8V, and  P <= 1mW. Perform DC and AC analysis for mirror ratio 1:1, 1:2. Vary length from 180nm , 500nm , 1µm.
+PART A)
+
+Q.Design and analyze current mirror circuit as active load in amplifier circuit , which has a gain of AV = -10V/V, power supply of Vdd = 1.8V, and  P <= 1mW. Perform DC and AC analysis for mirror ratio 1:1, 1:2. Vary length from 180nm , 500nm , 1µm.
 
 We know that, 
 
@@ -18,6 +20,8 @@ Vov = 0.073V and thus Vgs = 0.073 + 0.496 == 0.569V.
 
 As Source is grounded , Vs = 0v and thus Vg = Vgs = 0.569V.
 
+In General, 1:1 using ratio , then Iref = 0.277mA.
+For 1:2 using ration, then Iref = Itotal/3 = 0.183mA.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -43,6 +47,7 @@ C. Frequency Response :
 
 ![Image](https://github.com/user-attachments/assets/3360252b-e857-422a-bb0c-2f8ce78940e6)
 
+(W,L) for CMOSP is 10u,180nm and for CMOSN is 31.23u,180n.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -65,6 +70,8 @@ C. Frequency Response :
 ![Image](https://github.com/user-attachments/assets/f38e6a20-b7a0-4dc8-84bf-a4b3d31676df)
 
 ![Image](https://github.com/user-attachments/assets/fe655a6d-6e02-434b-9d89-359fd16cd341) 
+
+(W.L) for CMOSP1 is 10u,180n & (W,L) for CMOSP2 is 20u,180n & (W,L) for CMOSN is 41.127u,180n.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -91,7 +98,7 @@ C. Frequency Response :
 
 ![Image](https://github.com/user-attachments/assets/a16f98d1-eb76-4c3d-9c4d-c3bece7af707)
 
-
+(W,L) for CMOSP is 10u,500nm and for CMOSN is 65.19u,500n.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -121,6 +128,8 @@ C. Frequency Response :
 
 
 ![Image](https://github.com/user-attachments/assets/ece0c6a0-4410-40d3-ba05-2ab132b2a03e)
+
+(W.L) for CMOSP1 is 10u,500n & (W,L) for CMOSP2 is 20u,500n & (W,L) for CMOSN is 85.243u,500n.
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -152,7 +161,7 @@ C. Frequency Response :
 
 ![Image](https://github.com/user-attachments/assets/05ce7928-eb6e-409d-b64e-3562964762e8)  
 
-
+(W,L) for CMOSP is 10u,1um and for CMOSN is 93.35u,1u.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 CIRCUIT 6: 1:2 using 1um
@@ -182,6 +191,7 @@ C. Frequency Response :
 ![Image](https://github.com/user-attachments/assets/6ecaf4af-ffaf-402c-a8a9-d7699c91b0b0)
 
 
+(W.L) for CMOSP1 is 10u,1u & (W,L) for CMOSP2 is 20u,1u & (W,L) for CMOSN is 121.51u,1u.
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
