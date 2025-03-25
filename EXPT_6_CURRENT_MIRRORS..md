@@ -47,6 +47,8 @@ C. Frequency Response :
 
 ![Image](https://github.com/user-attachments/assets/3360252b-e857-422a-bb0c-2f8ce78940e6)
 
+Bandwidth is 207.218Mhz.(30dB-3dB= 27dB)
+
 (W,L) for CMOSP is 10u,180nm and for CMOSN is 31.23u,180n.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -70,6 +72,8 @@ C. Frequency Response :
 ![Image](https://github.com/user-attachments/assets/f38e6a20-b7a0-4dc8-84bf-a4b3d31676df)
 
 ![Image](https://github.com/user-attachments/assets/fe655a6d-6e02-434b-9d89-359fd16cd341) 
+
+Bandwidth is 139.454Mhz.(30dB-3dB = 27dB )
 
 (W.L) for CMOSP1 is 10u,180n & (W,L) for CMOSP2 is 20u,180n & (W,L) for CMOSN is 41.127u,180n.
 
@@ -97,6 +101,8 @@ C. Frequency Response :
 ![Image](https://github.com/user-attachments/assets/c586a526-65fa-445f-88c5-5d326068f926) 
 
 ![Image](https://github.com/user-attachments/assets/a16f98d1-eb76-4c3d-9c4d-c3bece7af707)
+
+
 
 (W,L) for CMOSP is 10u,500nm and for CMOSN is 65.19u,500n.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -128,6 +134,8 @@ C. Frequency Response :
 
 
 ![Image](https://github.com/user-attachments/assets/ece0c6a0-4410-40d3-ba05-2ab132b2a03e)
+
+Bandwidth is 26.778Mhz.(39dB-3dB = 36dB ).
 
 (W.L) for CMOSP1 is 10u,500n & (W,L) for CMOSP2 is 20u,500n & (W,L) for CMOSN is 85.243u,500n.
 
@@ -161,6 +169,8 @@ C. Frequency Response :
 
 ![Image](https://github.com/user-attachments/assets/05ce7928-eb6e-409d-b64e-3562964762e8)  
 
+Bnadwidth is 37.249Mhz.(36dB-3dB= 33dB ).
+
 (W,L) for CMOSP is 10u,1um and for CMOSN is 93.35u,1u.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -189,6 +199,8 @@ C. Frequency Response :
 
 
 ![Image](https://github.com/user-attachments/assets/6ecaf4af-ffaf-402c-a8a9-d7699c91b0b0)
+
+Bandwidth is 18.321Mhz.(39dB-3dB = 36dB ).
 
 
 (W.L) for CMOSP1 is 10u,1u & (W,L) for CMOSP2 is 20u,1u & (W,L) for CMOSN is 121.51u,1u.
