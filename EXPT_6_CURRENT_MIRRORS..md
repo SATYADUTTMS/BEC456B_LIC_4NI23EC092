@@ -213,12 +213,12 @@ PART B) DIFFERENTIAL AMPLIFIERS
 
 CIRCUIT :
 
-
+![Image](https://github.com/user-attachments/assets/b099dae0-caa2-4112-a7a7-2cbd6d9d8b6c)
 
 
 DC OPERATING POINT :
 
-
+![Image](https://github.com/user-attachments/assets/7c9d2e38-012a-440b-aec0-af3037eb69e0)
 
 
 
