@@ -222,6 +222,32 @@ DC OPERATING POINT :
 
 
 
+TRANSIENT ANALYSIS :
+
+
+![Image](https://github.com/user-attachments/assets/7020f00b-13ac-40f4-904b-bf694ffd2d5c)
+
+
+
+![Image](https://github.com/user-attachments/assets/64cd9842-f36f-4160-8d96-8213a959f993)
+
+
+
+FREQUENCY RESPONSE :
+
+
+
+![Image](https://github.com/user-attachments/assets/e8e06c9f-5428-4ea2-b3c4-042fd5debe7e)
+
+
+
+![Image](https://github.com/user-attachments/assets/b18fc705-35a0-4fd8-915d-b867a6d5cb0b)
+
+
+
+
+
+
 
 
 
